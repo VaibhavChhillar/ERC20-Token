@@ -4,7 +4,8 @@ A smart contract to create your own ERC20 token and deploy it using HardHat or R
 ## DESCRIPTION
 Written in Solidity, a programming language used to create smart contracts on the Ethereum blockchain, this program is a straightforward contract. The following are the functions of the contract:
 1. the contract owner can mint tokens to a provided address and 
-2. any user should be able to burn and transfer tokens.
+2. They can burn tokens.
+3. They can transfer tokens.
 
 ### Executing program
 
@@ -17,6 +18,7 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the your contract from the dropdown menu, and then click on the "Deploy" button.
 
 Once the contract is deployed, you can interact with it by calling the requireInstance, assertInstance and revertInstance function.
+
 
 ## Authors
 vaibhav chhillar 
